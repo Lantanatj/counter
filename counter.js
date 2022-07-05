@@ -8,8 +8,7 @@ function decrease(){
     header.textContent--
     // divContainerBody.style.backgroundColor = 'indigo'
     if(header.textContent < 0){
-        
-        divContainerBody.style.backgroundColor = 'indigo'
+        divContainerBody.style.backgroundColor = 'purple'
     }else if (header.textContent > 0){
         divContainerBody.style.backgroundColor = 'cyan'
     }else{
@@ -27,7 +26,7 @@ function increase(){
     if(header.textContent > 0){
         divContainerBody.style.backgroundColor = 'cyan'
     }else if (header.textContent < 0){
-        divContainerBody.style.backgroundColor = 'indigo'
+        divContainerBody.style.backgroundColor = 'purple'
     }else{
         divContainerBody.style.backgroundColor = 'white'
     }
